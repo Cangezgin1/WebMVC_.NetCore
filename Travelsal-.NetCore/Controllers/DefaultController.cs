@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Travelsal_.NetCore.Controllers
 {
-    public class DefaultController1 : Controller
+    public class DefaultController : Controller
     {
         public IActionResult Index()
         {
