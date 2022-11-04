@@ -9,5 +9,4 @@
   <li> FLUENT VALİDATİON  </li>
 </ul>
 
-<h3> Şuanda yapım aşamasında.. </h3>
-<p> Aldığım hatayı düzeltemediğim için :)) TraversalCore Repository üzerinden devam ediyorum.. </p>
+<h3> Şuanda yapım aşamasında :)) </h3>
