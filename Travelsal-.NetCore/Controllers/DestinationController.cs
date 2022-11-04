@@ -19,7 +19,8 @@ namespace Travelsal_.NetCore.Controllers
         [HttpGet]
         public IActionResult DestinotionDetails(int id)
         {
-            return View();
+            var values = destinationManager.TGetByID(id);
+            return View(values);
         }
         [HttpPost]
         public IActionResult DestinotionDetails(Destination p)

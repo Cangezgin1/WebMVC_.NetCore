@@ -12,5 +12,6 @@ namespace DataAccessLayer.Abstract
         void Update(T p);
         void Delete(T p);
         List<T> GetList();
+        T GetById(int id);
     }
 }
