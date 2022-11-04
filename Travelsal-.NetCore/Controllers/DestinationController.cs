@@ -17,13 +17,13 @@ namespace Travelsal_.NetCore.Controllers
 
 
         [HttpGet]
-        public IActionResult DestinotionDetails(int id)
+        public IActionResult DestinationDetails(int id)
         {
             var values = destinationManager.TGetByID(id);
             return View(values);
         }
         [HttpPost]
-        public IActionResult DestinotionDetails(Destination p)
+        public IActionResult DestinationDetails(Destination p)
         {
             return View();
         }
